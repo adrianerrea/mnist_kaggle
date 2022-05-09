@@ -29,4 +29,4 @@ You can find out more about this controversial leaderboard and the 100% accuracy
 + This dataset has some mistakes in the labels and some of them are impossible to label with enough confidence
 + I tried SOTA models for my computer vision approach and they came up to be my best final model
 + As mentioned before, the leaderboard is not 100% reliable as many competitors are cheating the results
-+ I could spend more time trying to get a little bit more accuracy but that would be less than 0.01%. Maybe not a big deal
++ I could spend more time trying to get a little bit more accuracy but that would be less than 0.1%. Maybe not a big deal
