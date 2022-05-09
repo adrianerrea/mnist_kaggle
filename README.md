@@ -23,7 +23,7 @@ I launched different arquitectures and my final model achieved a 99.6% over the 
 My final model got positioned in the TOP100 of the Leaderboard (at the time you are reading this). I got a final accuracy of 99.66% over the test set which is a really good result.
 You can find out more about this controversial leaderboard and the 100% accuracy of the first positions, here: https://www.kaggle.com/competitions/digit-recognizer/discussion/183700
 
-<img src="./images/Leaderboard.png" width="512"/>
+<img src="./images/Leaderboard.PNG" width="512"/>
 
 ## Final Comments and Improvements
 
