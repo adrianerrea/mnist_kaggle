@@ -11,13 +11,11 @@ Home page: https://www.kaggle.com/competitions/digit-recognizer/
 ## Insights
 
 The data provided is just a csv file with 784 columns corresponding to the pixels with a grey value between 0 and 255 and the label for that image.
-As this data is originally tabular, I took my first approach on Tabular Data.
 
-+ I tried some Neural Networks and RandomForest to get a final model with 97% in my validation set which corresponds to a 97.1% on the test set.
++ As this data is originally tabular, I took my first approach on Tabular Data. I tried some Neural Networks and RandomForest to get a final model with 97% in my validation set which corresponds to a 97.1% on the test set. Notebooks: [Tabular_Data_Training.ipynb](https://github.com/adrianerrea/mnist_kaggle/blob/main/Tabular_Data_Training.ipynb) and [Tabular_Data_Inference.ipynb](https://github.com/adrianerrea/mnist_kaggle/blob/main/Tabular_Data_Inference.ipynb)
 
 + I changed the approach and I converted all the pixels into real images to be able to work with computer vision models.
-I launched different arquitectures and my final model achieved a 99.6% over the validation set and a 99.6% in the test set as well.
-
+I launched different arquitectures and my final model achieved a 99.6% over the validation set and a 99.6% in the test set as well. Notebooks: [Image_Data_Training.ipynb](https://github.com/adrianerrea/mnist_kaggle/blob/main/Image_Data_Training.ipynb) and [Image_Data_Inference.ipynb](https://github.com/adrianerrea/mnist_kaggle/blob/main/Image_Data_Inference.ipynb)
 ## Leaderboard
 
 My final model got positioned in the TOP100 of the Leaderboard (at the time you are reading this). I got a final accuracy of 99.66% over the test set which is a really good result.
